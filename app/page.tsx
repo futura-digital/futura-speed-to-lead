@@ -43,12 +43,12 @@ export default function Page() {
   ))}
 </div>
               <div className="mt-10 flex flex-col gap-4 sm:flex-row sm:items-center">
-                <button className="inline-flex h-12 items-center justify-center rounded-full bg-white px-6 text-sm font-semibold text-neutral-950 transition duration-300 hover:-translate-y-0.5 hover:bg-white/90 hover:shadow-[0_0_40px_rgba(255,255,255,0.18)]">
+                <a href="tel:+442045720272" className="inline-flex h-12 items-center justify-center rounded-full bg-white px-6 text-sm font-semibold text-neutral-950 transition duration-300 hover:-translate-y-0.5 hover:bg-white/90 hover:shadow-[0_0_40px_rgba(255,255,255,0.18)]">
                   Experience the Live Demo
-                </button>
-                <button className="inline-flex h-12 items-center justify-center rounded-full border border-white/12 bg-white/5 px-6 text-sm font-medium text-white/80 backdrop-blur-xl transition hover:bg-white/8">
+                </a>
+                <a href="https://api.leadconnectorhq.com/widget/booking/SuJF7zuSUQtysLGaeDUL" className="inline-flex h-12 items-center justify-center rounded-full border border-white/12 bg-white/5 px-6 text-sm font-medium text-white/80 backdrop-blur-xl transition hover:bg-white/8">
                   Schedule a 30 Minute Call
-                </button>
+                </a>
               </div>
 
               <div className="mt-10 flex flex-wrap gap-3 text-sm text-white/55">
@@ -748,7 +748,7 @@ export default function Page() {
       </h2>
 
       <p className="mt-5 text-lg leading-8 text-white/60">
-        Fill in a short demo request and we’ll show you how a new enquiry can be
+        Pick a time below and we’ll show you how a new enquiry can be
         called, qualified and moved towards an appointment automatically.
       </p>
 
@@ -762,7 +762,7 @@ export default function Page() {
     <div className="relative">
       <div className="absolute -inset-6 rounded-[2rem] bg-gradient-to-b from-cyan-400/10 via-transparent to-emerald-400/10 blur-2xl" />
 
-      <form className="relative rounded-[2rem] border border-white/10 bg-white/[0.06] p-6 shadow-[0_20px_80px_rgba(0,0,0,0.45)] backdrop-blur-2xl">
+      <div className="relative rounded-[2rem] border border-white/10 bg-white/[0.06] p-6 shadow-[0_20px_80px_rgba(0,0,0,0.45)] backdrop-blur-2xl">
         <div className="mb-6">
           <p className="text-xs uppercase tracking-[0.22em] text-white/40">
             Demo request
@@ -772,65 +772,32 @@ export default function Page() {
           </h3>
         </div>
 
-        <div className="grid gap-4 sm:grid-cols-2">
-          <input
-            type="text"
-            placeholder="Your name"
-            className="h-12 rounded-2xl border border-white/10 bg-black/25 px-4 text-sm text-white outline-none placeholder:text-white/35 focus:border-cyan-300/40"
+        <div className="overflow-hidden rounded-2xl bg-white">
+          <iframe
+            src="https://api.leadconnectorhq.com/widget/booking/SuJF7zuSUQtysLGaeDUL"
+            title="Book a 30 minute walkthrough with Futura Digital"
+            className="block h-[760px] w-full border-0"
+            loading="lazy"
           />
-
-          <input
-            type="email"
-            placeholder="Email address"
-            className="h-12 rounded-2xl border border-white/10 bg-black/25 px-4 text-sm text-white outline-none placeholder:text-white/35 focus:border-cyan-300/40"
-          />
-
-          <input
-            type="tel"
-            placeholder="Mobile number"
-            className="h-12 rounded-2xl border border-white/10 bg-black/25 px-4 text-sm text-white outline-none placeholder:text-white/35 focus:border-cyan-300/40"
-          />
-
-          <input
-            type="text"
-            placeholder="Business website"
-            className="h-12 rounded-2xl border border-white/10 bg-black/25 px-4 text-sm text-white outline-none placeholder:text-white/35 focus:border-cyan-300/40"
-          />
-
-          <select className="h-12 rounded-2xl border border-white/10 bg-black/25 px-4 text-sm text-white outline-none focus:border-cyan-300/40">
-            <option>Service type</option>
-            <option>Solar / Renewables</option>
-            <option>Roofing</option>
-            <option>Building / Construction</option>
-            <option>Plumbing / Heating</option>
-            <option>Electrical</option>
-            <option>Financial Services</option>
-            <option>Healthcare / Clinic</option>
-            <option>Other</option>
-          </select>
-
-          <select className="h-12 rounded-2xl border border-white/10 bg-black/25 px-4 text-sm text-white outline-none focus:border-cyan-300/40">
-            <option>Monthly ad spend</option>
-            <option>Not currently running ads</option>
-            <option>Under £1,000/month</option>
-            <option>£1,000–£3,000/month</option>
-            <option>£3,000–£10,000/month</option>
-            <option>£10,000+/month</option>
-          </select>
         </div>
 
-        <button
-          type="button"
-          className="mt-5 inline-flex h-12 w-full items-center justify-center rounded-full bg-white px-6 text-sm font-semibold text-neutral-950 transition duration-300 hover:-translate-y-0.5 hover:bg-white/90 hover:shadow-[0_0_40px_rgba(255,255,255,0.18)]"
-        >
-          Request demo
-        </button>
-
         <p className="mt-4 text-center text-xs leading-5 text-white/40">
+          Calendar not showing?{" "}
+          <a href="https://api.leadconnectorhq.com/widget/booking/SuJF7zuSUQtysLGaeDUL" className="underline hover:text-white">
+            Open it in a new page
+          </a>{" "}
+          or ring our AI receptionist on{" "}
+          <a href="tel:+442045720272" className="underline hover:text-white">
+            +44 20 4572 0272
+          </a>
+          .
+        </p>
+
+        <p className="mt-2 text-center text-xs leading-5 text-white/40">
           No spam. No hard sell. Just a practical walkthrough of how the system
           could work for your business.
         </p>
-      </form>
+      </div>
     </div>
   </div>
 </section>
@@ -852,13 +819,13 @@ export default function Page() {
     </p>
 
     <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
-      <button className="inline-flex h-12 items-center justify-center rounded-full bg-white px-7 text-sm font-semibold text-neutral-950 transition duration-300 hover:-translate-y-0.5 hover:bg-white/90 hover:shadow-[0_0_40px_rgba(255,255,255,0.18)]">
+      <a href="tel:+442045720272" className="inline-flex h-12 items-center justify-center rounded-full bg-white px-7 text-sm font-semibold text-neutral-950 transition duration-300 hover:-translate-y-0.5 hover:bg-white/90 hover:shadow-[0_0_40px_rgba(255,255,255,0.18)]">
         Experience the Live Demo
-      </button>
+      </a>
 
-      <button className="inline-flex h-12 items-center justify-center rounded-full border border-white/12 bg-white/5 px-7 text-sm font-medium text-white/80 backdrop-blur-xl transition duration-300 hover:-translate-y-0.5 hover:bg-white/8">
+      <a href="https://api.leadconnectorhq.com/widget/booking/SuJF7zuSUQtysLGaeDUL" className="inline-flex h-12 items-center justify-center rounded-full border border-white/12 bg-white/5 px-7 text-sm font-medium text-white/80 backdrop-blur-xl transition duration-300 hover:-translate-y-0.5 hover:bg-white/8">
         Schedule a 30 Minute Call
-      </button>
+      </a>
     </div>
   </div>
 </section>
@@ -870,7 +837,7 @@ export default function Page() {
       <a href="mailto:info@futuradigital.app" className="hover:text-white">
         info@futuradigital.app
       </a>
-      <a href="https://futuradigital.app/book" className="hover:text-white">
+      <a href="https://api.leadconnectorhq.com/widget/booking/SuJF7zuSUQtysLGaeDUL" className="hover:text-white">
         Book a call
       </a>
     </div>
