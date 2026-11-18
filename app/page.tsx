@@ -47,7 +47,7 @@ export default function Page() {
                   Experience the Live Demo
                 </button>
                 <button className="inline-flex h-12 items-center justify-center rounded-full border border-white/12 bg-white/5 px-6 text-sm font-medium text-white/80 backdrop-blur-xl transition hover:bg-white/8">
-                  Schedule a 20-Minute Call
+                  Schedule a 30 Minute Call
                 </button>
               </div>
 
@@ -768,7 +768,7 @@ export default function Page() {
             Demo request
           </p>
           <h3 className="mt-2 text-2xl font-semibold tracking-[-0.03em] text-white">
-            Book a 20-minute walkthrough
+            Book a 30 minute walkthrough
           </h3>
         </div>
 
@@ -857,7 +857,7 @@ export default function Page() {
       </button>
 
       <button className="inline-flex h-12 items-center justify-center rounded-full border border-white/12 bg-white/5 px-7 text-sm font-medium text-white/80 backdrop-blur-xl transition duration-300 hover:-translate-y-0.5 hover:bg-white/8">
-        Schedule a 20-Minute Call
+        Schedule a 30 Minute Call
       </button>
     </div>
   </div>
