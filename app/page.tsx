@@ -47,7 +47,7 @@ export default function Page() {
                   Experience the Live Demo
                 </a>
                 <a href="https://futuradigital.app/book" className="inline-flex h-12 items-center justify-center rounded-full border border-white/12 bg-white/5 px-6 text-sm font-medium text-white/80 backdrop-blur-xl transition hover:bg-white/8">
-                  Schedule a 30 Minute Call
+                  Book your free call
                 </a>
               </div>
 
@@ -768,14 +768,14 @@ export default function Page() {
             Demo request
           </p>
           <h3 className="mt-2 text-2xl font-semibold tracking-[-0.03em] text-white">
-            Book a 30 minute walkthrough
+            Book your free call
           </h3>
         </div>
 
         <div className="overflow-hidden rounded-2xl bg-white">
           <iframe
             src="https://api.leadconnectorhq.com/widget/booking/SuJF7zuSUQtysLGaeDUL"
-            title="Book a 30 minute walkthrough with Futura Digital"
+            title="Book your free call with Futura Digital"
             className="block h-[760px] w-full border-0"
             loading="lazy"
           />
@@ -824,7 +824,7 @@ export default function Page() {
       </a>
 
       <a href="https://futuradigital.app/book" className="inline-flex h-12 items-center justify-center rounded-full border border-white/12 bg-white/5 px-7 text-sm font-medium text-white/80 backdrop-blur-xl transition duration-300 hover:-translate-y-0.5 hover:bg-white/8">
-        Schedule a 30 Minute Call
+        Book your free call
       </a>
     </div>
   </div>
@@ -838,7 +838,7 @@ export default function Page() {
         info@futuradigital.app
       </a>
       <a href="https://futuradigital.app/book" className="hover:text-white">
-        Book a call
+        Book your free call
       </a>
     </div>
   </div>
