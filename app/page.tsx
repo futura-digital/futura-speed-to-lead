@@ -46,7 +46,7 @@ export default function Page() {
                 <a href="tel:+442045720272" className="inline-flex h-12 items-center justify-center rounded-full bg-white px-6 text-sm font-semibold text-neutral-950 transition duration-300 hover:-translate-y-0.5 hover:bg-white/90 hover:shadow-[0_0_40px_rgba(255,255,255,0.18)]">
                   Experience the Live Demo
                 </a>
-                <a href="https://api.leadconnectorhq.com/widget/booking/SuJF7zuSUQtysLGaeDUL" className="inline-flex h-12 items-center justify-center rounded-full border border-white/12 bg-white/5 px-6 text-sm font-medium text-white/80 backdrop-blur-xl transition hover:bg-white/8">
+                <a href="https://futuradigital.app/book" className="inline-flex h-12 items-center justify-center rounded-full border border-white/12 bg-white/5 px-6 text-sm font-medium text-white/80 backdrop-blur-xl transition hover:bg-white/8">
                   Schedule a 30 Minute Call
                 </a>
               </div>
@@ -783,7 +783,7 @@ export default function Page() {
 
         <p className="mt-4 text-center text-xs leading-5 text-white/40">
           Calendar not showing?{" "}
-          <a href="https://api.leadconnectorhq.com/widget/booking/SuJF7zuSUQtysLGaeDUL" className="underline hover:text-white">
+          <a href="https://futuradigital.app/book" className="underline hover:text-white">
             Open it in a new page
           </a>{" "}
           or ring our AI receptionist on{" "}
@@ -823,7 +823,7 @@ export default function Page() {
         Experience the Live Demo
       </a>
 
-      <a href="https://api.leadconnectorhq.com/widget/booking/SuJF7zuSUQtysLGaeDUL" className="inline-flex h-12 items-center justify-center rounded-full border border-white/12 bg-white/5 px-7 text-sm font-medium text-white/80 backdrop-blur-xl transition duration-300 hover:-translate-y-0.5 hover:bg-white/8">
+      <a href="https://futuradigital.app/book" className="inline-flex h-12 items-center justify-center rounded-full border border-white/12 bg-white/5 px-7 text-sm font-medium text-white/80 backdrop-blur-xl transition duration-300 hover:-translate-y-0.5 hover:bg-white/8">
         Schedule a 30 Minute Call
       </a>
     </div>
@@ -837,7 +837,7 @@ export default function Page() {
       <a href="mailto:info@futuradigital.app" className="hover:text-white">
         info@futuradigital.app
       </a>
-      <a href="https://api.leadconnectorhq.com/widget/booking/SuJF7zuSUQtysLGaeDUL" className="hover:text-white">
+      <a href="https://futuradigital.app/book" className="hover:text-white">
         Book a call
       </a>
     </div>
